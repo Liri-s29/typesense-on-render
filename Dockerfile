@@ -5,4 +5,4 @@ RUN chmod +x /start.sh
 
 EXPOSE 8108
 
-ENTRYPOINT ["/start.sh"]
+ENTRYPOINT ["/bin/sh", "/start.sh"]
