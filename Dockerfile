@@ -1,4 +1,4 @@
-FROM typesense/typesense:0.24.0
+FROM typesense/typesense:0.25.2
 
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
